@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.card-style {
+  background-color: rgb(35, 35, 35);
+  border-radius: 100px 100px 0 100px;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth return */
+  cursor: pointer;
+}
+
+.card-style:hover {
+  transform: translateY(-10px); /* upar uthna */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* halka shadow */
+}
